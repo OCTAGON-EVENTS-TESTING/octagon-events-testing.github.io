@@ -1,1 +1,0 @@
-import{_ as s,c as t,a as o,o as a}from"./index-D9ZY9FH4.js";const c={},n={class:"about"};function r(i,e){return a(),t("div",n,e[0]||(e[0]=[o("h1",null,"This is Night Blub",-1)]))}const _=s(c,[["render",r]]);export{_ as default};
