@@ -11,8 +11,11 @@
   <body>
     <div id="app"></div>
     <script>
-      document.getElementById('app').innerText =
-        window.location.pathname.replace('/', '#')
+      window.location.href =
+        window.location.origin +
+        window.location.pathname.replace('/', '#') +
+        window.location.search +
+        window.location.hash
     </script>
   </body>
 </html>
